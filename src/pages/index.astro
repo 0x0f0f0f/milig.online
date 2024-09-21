@@ -1,0 +1,65 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import Image from 'astro/components/Image.astro'
+---
+
+<BaseLayout
+  title="Music is Logic is Geometry"
+  description="An independent collective and record label exploring electronic music, visual arts, live coding, and psychedelia."
+>
+  <!-- <SineBackground className="" client:only /> -->
+  <div class="container grid w-full items-center gap-6 pb-8 pt-6 md:py-10">
+    <div class="flex w-full flex-col items-center gap-4">
+      <div
+        class="flex h-[90vh] flex-col items-center justify-center gap-x-32 md:flex-row"
+      >
+        <Image
+          src="/logo.png"
+          width={400}
+          height={400}
+          class="z-100 w-100 z-50"
+          alt={'Music is Logic is Geometry, an independent collective and record label exploring electronic music, visual arts, live coding, and psychedelia..'}
+        />
+
+        <div
+          class="items-right justify-right flex flex-col gap-2 text-center lg:text-right"
+        >
+          <h1 class="text-center text-5xl lowercase lg:text-right">
+            Music is Logic is Geometry
+          </h1>
+
+          <p class="z-100 z-50 mt-4 max-w-[700px] font-serif text-4xl">
+            Independent collective and record label.
+          </p>
+
+          <p
+            class="z-100 z-50 max-w-[700px] font-serif text-3xl text-muted-foreground"
+          >
+            Exploring electronic music, visual arts, live coding, and
+            psychedelia.
+          </p>
+
+          <div
+            class="mt-4 flex w-full flex-row justify-center gap-x-4 text-lg lg:items-end lg:justify-end"
+          >
+            <a href="https://milig.bandcamp.com" class="lowercase">
+              Bandcamp
+            </a>
+            <a
+              href="https://soundcloud.com/musicislogicisgeometry"
+              class="lowercase"
+            >
+              soundcloud
+            </a>
+            <a href="https://instagram.com/miligmusic" class="lowercase">
+              instagram
+            </a>
+            <a href="/#">
+              contact@<span class="hidden">aaa</span>milig.online
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

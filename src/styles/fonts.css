@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+
+@font-face {
+    font-family: 'Warownia';
+    src: url('/warownia.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poldo';
+    src: url('/poldo.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Penna';
+    src: url('/penna.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zeitgeist';
+    src: url('/zeitgeist.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
