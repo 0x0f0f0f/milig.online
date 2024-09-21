@@ -11,13 +11,13 @@ import Image from 'astro/components/Image.astro'
   <div class="container grid w-full items-center gap-6 pb-8 pt-6 md:py-10">
     <div class="flex w-full flex-col items-center gap-4">
       <div
-        class="flex h-[90vh] flex-col items-center justify-center gap-x-32 md:flex-row"
+        class="flex h-[90vh] flex-col items-center justify-center gap-x-32 gap-y-8 lg:flex-row"
       >
         <Image
           src="/logo.png"
           width={400}
           height={400}
-          class="z-100 w-100 z-50"
+          class="z-100 w-50 z-50"
           alt={'Music is Logic is Geometry, an independent collective and record label exploring electronic music, visual arts, live coding, and psychedelia..'}
         />
 
@@ -40,7 +40,7 @@ import Image from 'astro/components/Image.astro'
           </p>
 
           <div
-            class="mt-4 flex w-full flex-row justify-center gap-x-4 text-lg lg:items-end lg:justify-end"
+            class="mt-4 flex w-full flex-row flex-wrap justify-center gap-x-4 text-lg lg:items-end lg:justify-end"
           >
             <a href="https://milig.bandcamp.com" class="lowercase">
               Bandcamp
